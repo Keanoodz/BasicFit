@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Fit Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#workouts">Workouts</a></li>
+                <li><a href="#nutrition">Voeding</a></li>
+                <li><a href="#goals">Doelen</a></li>
+                <li><a href="#locations">Locaties</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welkom bij Basic Fit</h1>
+        <p>Word sterker, fitter en gezonder met de trainingen en faciliteiten van Basic Fit!</p>
+        <button onclick="window.location.href='#contact'">Word Lid!</button> <!-- Actieknop voor lidmaatschap -->
+    </section>
+
+    <section id="workouts">
+        <h2>Workouts</h2>
+        <p>Bij Basic Fit bieden we een breed scala aan trainingen om jouw fitnessdoelen te bereiken. Of je nu traint voor kracht, uithoudingsvermogen, of flexibiliteit, wij hebben de juiste workouts voor jou.</p>
+        <button onclick="window.location.href='#home'">Bekijk Trainingen</button> <!-- Actieknop voor training -->
+    </section>
+
+    <section id="nutrition">
+        <h2>Voeding</h2>
+        <p>Gezonde voeding is cruciaal voor het behalen van je fitnessdoelen. Bij Basic Fit helpen we je om de juiste voedingskeuzes te maken, passend bij jouw behoeften.</p>
+        <button onclick="window.location.href='#home'">Ontdek Voedingstips</button> <!-- Actieknop voor voeding -->
+    </section>
+
+    <section id="goals">
+        <h2>Stel je doelen</h2>
+        <p>Het stellen van doelen is essentieel om gemotiveerd te blijven. Basic Fit biedt verschillende tools om je voortgang bij te houden en je doelen te behalen.</p>
+        <button onclick="window.location.href='#home'">Stel Jouw Doelen</button> <!-- Actieknop voor doelen -->
+    </section>
+
+    <section id="locations">
+        <h2>Locaties van Basic Fit in België</h2>
+        <p>Basic Fit heeft verschillende locaties door heel België. Hier zijn enkele van onze populairste locaties:</p>
+        <table>
+            <tr>
+                <th>Locatie</th>
+                <th>Stad</th>
+                <th>Openingstijden</th>
+            </tr>
+            <tr>
+                <td>Basic Fit Antwerpen</td>
+                <td>Antwerpen</td>
+                <td>Ma-Vr: 07:00 - 22:00 | Za-Zo: 08:00 - 18:00</td>
+            </tr>
+            <tr>
+                <td>Basic Fit Brussel</td>
+                <td>Brussel</td>
+                <td>Ma-Vr: 06:30 - 22:30 | Za-Zo: 08:00 - 20:00</td>
+            </tr>
+            <tr>
+                <td>Basic Fit Gent</td>
+                <td>Gent</td>
+                <td>Ma-Vr: 07:00 - 22:00 | Za-Zo: 09:00 - 19:00</td>
+            </tr>
+        </table>
+        <button onclick="window.location.href='#contact'">Bekijk Alle Locaties</button> <!-- Actieknop voor locaties -->
+    </section>
+
+    <section id="contact">
+        <h2>Contacteer ons</h2>
+        <p>Heb je vragen over lidmaatschappen, locaties of trainingen? Neem contact met ons op via de onderstaande opties:</p>
+        <ul>
+            <li>Email: <a href="mailto:info@basicfit.be">info@basicfit.be</a></li>
+            <li>Telefoon: +32 123 456 789</li>
+            <li>Adres: Stationstraat 100, 1000 Brussel, België</li>
+        </ul>
+        <button onclick="window.location.href='mailto:info@basicfit.be'">Stuur een E-mail</button> <!-- Actieknop voor contact -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

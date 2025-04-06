@@ -1,0 +1,129 @@
+/* Algemene stijlen */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #6A1B9A; /* Paars voor de header */
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FF9800; /* Geel/oranje voor hover-effect */
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    font-size: 2rem;
+    color: #6A1B9A; /* Paars voor titels */
+}
+
+p {
+    font-size: 1rem;
+    color: #333; /* Donkergrijze tekst voor leesbaarheid */
+}
+
+/* Tabel styling voor locaties */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #6A1B9A; /* Paars voor de tabelkop */
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+section:hover h1, section:hover p {
+    transform: scale(1.05);
+}
+
+/* Specifieke stijlen voor secties */
+#home {
+    background-color: #FF9800; /* Geel/oranje voor de home sectie */
+    color: white;
+}
+
+#workouts, #nutrition, #goals, #locations {
+    background-color: #FFFFFF; /* Wit voor de inhoudelijke secties */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Actieknoppen */
+button {
+    background-color: #FF9800; /* Geel/oranje voor de knoppen */
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: transform 0.2s, background-color 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #FF5722; /* Donkerder oranje voor hover */
+    transform: scale(1.05); /* Knop vergroting bij hover */
+}
+
+/* Media Query voor responsief ontwerp */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    table {
+        width: 100%;
+    }
+}
